@@ -427,11 +427,17 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .iframe_class {
+    width:200px;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
   #fh5co-event .event-wrap {
     margin-bottom: 10px;
-    /* width: 78%; */
   }
 }
 #fh5co-counter .event-wrap h3,
